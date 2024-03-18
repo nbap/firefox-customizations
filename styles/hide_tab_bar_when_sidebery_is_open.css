@@ -1,0 +1,12 @@
+#main-window[uidensity="touch"] #titlebar {
+    visibility: visible;
+}
+
+#main-window[uidensity="compact"] #titlebar {
+    visibility: visible;
+}
+
+/* Hidden state: Hide native tabs strip */
+#main-window[titlepreface*="​"] #titlebar {
+    visibility: collapse;
+}
